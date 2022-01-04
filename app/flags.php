@@ -69,9 +69,9 @@ return array(
             16 => 'CREATURE_TYPE_FLAG_NO_FACTION_TOOLTIP', // 	Hides tooltip faction.
             32 => 'CREATURE_TYPE_FLAG_MORE_AUDIBLE',
             64 => 'CREATURE_TYPE_FLAG_SPELL_ATTACKABLE',	// Spell attackable.
-            128	 =>	'CREATURE_TYPE_FLAG_INTERACT_WHILE_DEAD',	// Player can interact with the creature if its dead (not player dead)
-            256	 =>	'CREATURE_TYPE_FLAG_SKIN_WITH_HERBALISM' ,// makes mob herbable
-            512	 =>	'CREATURE_TYPE_FLAG_SKIN_WITH_MINING',	// Makes mob minable
+            128 => 'CREATURE_TYPE_FLAG_INTERACT_WHILE_DEAD',	// Player can interact with the creature if its dead (not player dead)
+            256 => 'CREATURE_TYPE_FLAG_SKIN_WITH_HERBALISM' ,// makes mob herbable
+            512 => 'CREATURE_TYPE_FLAG_SKIN_WITH_MINING',	// Makes mob minable
             1024 => 'CREATURE_TYPE_FLAG_NO_DEATH_MESSAGE',	// Does not combatlog death.
             2048 => 'CREATURE_TYPE_FLAG_ALLOW_MOUNTED_COMBAT',	// Creature can remain mounted when entering combat
             4096 => 'CREATURE_TYPE_FLAG_CAN_ASSIST',// 	Can aid any player in combat if in range?
