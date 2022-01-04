@@ -155,7 +155,7 @@ return array(
             256	=> 'CREATURE_FLAG_EXTRA_NO_TAUNT', //	creature is immune to taunt-auras and "attack me"-effects
             512 => 'CREATURE_FLAG_EXTRA_NO_MOVE_FLAGS_UPDATE',	//creature won't update movement flags
             1024 =>	'CREATURE_FLAG_EXTRA_GHOST_VISIBILITY',	//creature will be only visible for dead players
-            2048 =>	'CREATURE_FLAG_EXTRA_UNUSED_12', //	creature will use offhand attacks
+            2048 => 'CREATURE_FLAG_EXTRA_UNUSED_12', //	creature will use offhand attacks
             4096 =>	'CREATURE_FLAG_EXTRA_NO_SELL_VENDOR',	//players can't sell items to this vendor
             8192 => 'CREATURE_FLAG_EXTRA_IGNORE_COMBAT',
             16384 => 'CREATURE_FLAG_EXTRA_WORLDEVENT', //	custom flag for world events (left room for merging)
