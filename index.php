@@ -23,7 +23,7 @@
             <h6 class="text-center"><a href="https://Github.com/PatricNox"  style="float:left;" class="badge badge-info">Created by Github.com/PatricNox</a></h6>
             </div>
             <div class="card-body">
-              <h2 class="card-title text-center">TrinityCore Flags Checker Tool</h2>
+              <h2 class="card-title text-center">WoW Flags Checker Tool</h2>
               <form class="form-flags-app">
                 <div class="form-label-group">
                   <input type="number" id="inputBitmaskNumber" name="flag_number" class="form-control" required autofocus autocomplete="off">
@@ -33,12 +33,13 @@
                 <label>Choose Flags type</label>
                 <div class="form-label-group">
                   <select name="flag_type" id="chooseFlagsType"  class="form-control">
-                      <option value="n" <?=wasOptionSubmitted('n')?>>NPC flags</option>
-                      <option value="u" <?=wasOptionSubmitted('u')?>>Unit flags</option>
-                      <option value="i" <?=wasOptionSubmitted('i')?>>Mechanic immune mask flags</option>
-                      <option value="e" <?=wasOptionSubmitted('e')?>>Flags extra</option>
-                      <option value="it" <?=wasOptionSubmitted('it')?>>Inhabit type flags</option>
+                      <option value="nf" <?=wasOptionSubmitted('nf')?>>NPC flags</option>
+                      <option value="uf" <?=wasOptionSubmitted('uf')?>>Unit flags</option>
                       <option value="tf" <?=wasOptionSubmitted('tf')?>>Type flags</option>
+                      <option value="itf" <?=wasOptionSubmitted('itf')?>>Inhabit type flags</option>
+                      <option value="mim" <?=wasOptionSubmitted('mimf')?>>Mechanic Immune Mask</option>
+                      <option value="ssim" <?=wasOptionSubmitted('ssim')?>>Spell School Immune Mask</option>
+                      <option value="fe" <?=wasOptionSubmitted('fe')?>>Flags extra</option>
                   </select>
                 </div>
                 
