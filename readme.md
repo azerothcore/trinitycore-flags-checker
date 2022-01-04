@@ -5,3 +5,4 @@ See the used bitmask flags for your corresponding bitmask value. Covers all flag
 
 ## Credits
 Created by © [Eronox](https://github.com/eronox) 
+Updated for Azerothcore by [Kitzunu](https://github.com/Kitzunu)

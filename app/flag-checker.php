@@ -3,8 +3,8 @@
     /** Helper functions. **/
     include_once('helpers.php');
 
-    /** Flags used in TrinityCore 3.3.5a. **/
-    $flags = require_once('trinitycore-flags.php');
+    /** Flags used in AzerothCore 3.3.5a. **/
+    $flags = require_once('flags.php');
 
     /** Application logic. **/
     session_start();
